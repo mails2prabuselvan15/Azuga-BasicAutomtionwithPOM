@@ -43,7 +43,7 @@ public class LoginFlow {
 		home = new HomePage(driver);;
 		home.clickSignInBtn();
 		createAcc = new CreateAccount(driver);
-		createAcc.enterEmailaddress("prabu1001@gmail.com");
+		createAcc.enterEmailaddress("prabu10022@gmail.com");
 		userinfo = new UserInformation(driver);
 		userinfo.EnterInformation("PrabuSelvanB", "SelvanTestB", "Test@123", "SelvanPrabu", "Welcome street", "Testing", "Test123", "Alaska", "99524", "97381121111");
 		tshirts= new SelectDress(driver);
